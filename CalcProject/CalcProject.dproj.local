@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/05/29 11:58:01.000.897,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/05/30 08:20:23.000.767,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/06/25 11:25:42.000.141,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/07/22 11:46:04.000.112,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/03/06 08:39:08.000.624,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/12 15:25:40.000.757,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/08 18:25:56.000.200,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/08 22:24:06.000.358,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/08/14 15:13:11.000.966,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/22 19:48:52.000.365,=C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/22 19:49:44.000.050,C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projetos\Calculadora\CalcProject\uPrincipal.pas</Transaction>
+    <Transaction>2020/09/22 19:49:44.000.050,C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Projetos\Calculadora\CalcProject\uPrincipal.dfm</Transaction>
+    <Transaction>2020/09/22 19:50:02.000.936,C:\Users\gisele.goncalves\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Projetos\Calculadora\CalcProject\CalcProject.dproj</Transaction>
+    <Transaction>2020/09/22 19:52:00.000.406,=C:\Projetos\Calculadora\CalcProject\Unit1.pas</Transaction>
+    <Transaction>2020/09/22 19:52:18.000.649,C:\Projetos\Calculadora\CalcProject\Unit1.pas=C:\Projetos\Calculadora\CalcProject\uCalculadora.pas</Transaction>
+  </Transactions>
+</BorlandProject>

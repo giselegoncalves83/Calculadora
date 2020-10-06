@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{F7B673CE-6308-41AB-9FFC-2DD55225FC2A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CalcProject\CalcProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CalcTest\CalcTest.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CalcProject">
+        <MSBuild Projects="CalcProject\CalcProject.dproj"/>
+    </Target>
+    <Target Name="CalcProject:Clean">
+        <MSBuild Projects="CalcProject\CalcProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalcProject:Make">
+        <MSBuild Projects="CalcProject\CalcProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="CalcTest">
+        <MSBuild Projects="CalcTest\CalcTest.dproj"/>
+    </Target>
+    <Target Name="CalcTest:Clean">
+        <MSBuild Projects="CalcTest\CalcTest.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CalcTest:Make">
+        <MSBuild Projects="CalcTest\CalcTest.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CalcProject;CalcTest"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CalcProject:Clean;CalcTest:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CalcProject:Make;CalcTest:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
