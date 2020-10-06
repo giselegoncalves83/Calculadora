@@ -1,0 +1,95 @@
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx
+$ git init
+Initialized empty Git repository in C:/Projetos/Delphi/xxxx/.git/
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git remote add origin git@github.com:giselegoncalves83/Calculadora.git
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CalcProject/
+        CalcTest/
+        grpCalculadora.dsk
+        grpCalculadora.groupproj
+        grpCalculadora.groupproj.local
+        grpCalculadora_prjgroup.tvsconfig
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git add --all
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   CalcProject/CalcProject.dpr
+        new file:   CalcProject/CalcProject.dproj
+        new file:   CalcProject/CalcProject.dproj.local
+        new file:   CalcProject/CalcProject.identcache
+        new file:   CalcProject/CalcProject.res
+        new file:   CalcProject/CalcProject.stat
+        new file:   CalcProject/uCalculadora.pas
+        new file:   CalcProject/uPrincipal.dfm
+        new file:   CalcProject/uPrincipal.pas
+        new file:   CalcTest/CalcTest.dpr
+        new file:   CalcTest/CalcTest.dproj
+        new file:   CalcTest/CalcTest.dproj.local
+        new file:   CalcTest/CalcTest.identcache
+        new file:   CalcTest/CalcTest.res
+        new file:   CalcTest/CalcTest.stat
+        new file:   CalcTest/uTestador.pas
+        new file:   grpCalculadora.dsk
+        new file:   grpCalculadora.groupproj
+        new file:   grpCalculadora.groupproj.local
+        new file:   grpCalculadora_prjgroup.tvsconfig
+
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git commit -m "Arquivos Comitados"
+[master (root-commit) 0964641] Arquivos Comitados
+ 20 files changed, 2483 insertions(+)
+ create mode 100644 CalcProject/CalcProject.dpr
+ create mode 100644 CalcProject/CalcProject.dproj
+ create mode 100644 CalcProject/CalcProject.dproj.local
+ create mode 100644 CalcProject/CalcProject.identcache
+ create mode 100644 CalcProject/CalcProject.res
+ create mode 100644 CalcProject/CalcProject.stat
+ create mode 100644 CalcProject/uCalculadora.pas
+ create mode 100644 CalcProject/uPrincipal.dfm
+ create mode 100644 CalcProject/uPrincipal.pas
+ create mode 100644 CalcTest/CalcTest.dpr
+ create mode 100644 CalcTest/CalcTest.dproj
+ create mode 100644 CalcTest/CalcTest.dproj.local
+ create mode 100644 CalcTest/CalcTest.identcache
+ create mode 100644 CalcTest/CalcTest.res
+ create mode 100644 CalcTest/CalcTest.stat
+ create mode 100644 CalcTest/uTestador.pas
+ create mode 100644 grpCalculadora.dsk
+ create mode 100644 grpCalculadora.groupproj
+ create mode 100644 grpCalculadora.groupproj.local
+ create mode 100644 grpCalculadora_prjgroup.tvsconfig
+
+gisel@GiseleHome MINGW64 /c/Projetos/Delphi/xxxx (master)
+$ git push -u origin master
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 60.39 KiB | 594.00 KiB/s, done.
+Total 24 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To github.com:giselegoncalves83/Calculadora.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
