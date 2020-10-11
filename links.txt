@@ -1,4 +1,35 @@
-
+GitHub
 - http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/
+- https://gist.github.com/leocomelli/2545add34e4fec21ec16
+- https://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Resumo
+
+
 
 - https://www.youtube.com/watch?v=7YVQLZp1jb0
+
+
+integraçao continua
+https://hub.casadodesenvolvedor.com.br/t/implantando-integracao-continua-com-delphi/1256
+https://hub.casadodesenvolvedor.com.br/t/usando-cobertura-de-codigo-para-delphi-integrado-com-jenkins/1257
+
+jenkins
+https://www.youtube.com/watch?v=dhKGmp6KsNs&t=1899s
+https://www.youtube.com/watch?v=93doyJSRcOU
+https://imasters.com.br/back-end/serie-continuous-integration-conectando-jenkins-com-github
+
+https://www.chiefdelphi.com/t/new-to-github-and-jenkins/155050/6
+
+
+github e jenkins
+https://www.google.com/search?rlz=1C1CHZN_pt-BRBR911BR911&sxsrf=ALeKk03HvO-TfqwY1MAdu3aYyWt6ompDbA:1602381267107&q=jenkins+github&sa=X&ved=2ahUKEwjZt-Gxt6vsAhVZIbkGHYkbCSQQ1QIoBnoECA4QBw
+
+integração continua
+https://www.google.com/search?rlz=1C1CHZN_pt-BRBR911BR911&sxsrf=ALeKk03HvO-TfqwY1MAdu3aYyWt6ompDbA:1602381267107&q=jenkins+tutorial+portugu%C3%AAs&sa=X&ved=2ahUKEwjZt-Gxt6vsAhVZIbkGHYkbCSQQ1QIoAHoECA4QAQ
+
+
+
+
+
+
+
+
