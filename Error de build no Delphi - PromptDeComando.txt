@@ -1,0 +1,122 @@
+Microsoft Windows [versão 10.0.18363.1082]
+(c) 2019 Microsoft Corporation. Todos os direitos reservados.
+
+C:\WINDOWS\system32>CD\
+
+C:\>CD PROJETOS
+
+C:\Projetos>CD XXX
+O sistema não pode encontrar o caminho especificado.
+
+C:\Projetos>DIR
+ O volume na unidade C é Windows
+ O Número de Série do Volume é E266-884A
+
+ Pasta de C:\Projetos
+
+04/10/2020  14:51    <DIR>          .
+04/10/2020  14:51    <DIR>          ..
+05/10/2020  22:18    <DIR>          Delphi
+07/09/2020  14:36    <DIR>          Ionic
+               0 arquivo(s)              0 bytes
+               4 pasta(s)   875.111.178.240 bytes disponíveis
+
+C:\Projetos>CD DELPHI
+
+C:\Projetos\Delphi>CD XXX
+O sistema não pode encontrar o caminho especificado.
+
+C:\Projetos\Delphi>DIR
+ O volume na unidade C é Windows
+ O Número de Série do Volume é E266-884A
+
+ Pasta de C:\Projetos\Delphi
+
+05/10/2020  22:18    <DIR>          .
+05/10/2020  22:18    <DIR>          ..
+10/10/2020  23:15    <DIR>          xxxx
+               0 arquivo(s)              0 bytes
+               3 pasta(s)   875.110.776.832 bytes disponíveis
+
+C:\Projetos\Delphi>CD XXXX
+
+C:\Projetos\Delphi\xxxx>call "C:\Program Files (x86)\Embarcadero\Studio\21.0\bin\rsvars.bat"
+O sistema não pode encontrar o caminho especificado.
+
+C:\Projetos\Delphi\xxxx>call "C:\Program Files (x86)\Embarcadero\Studio\20.0\bin\rsvars.bat"
+C:\Projetos\Delphi\xxxx>msbuild CalcTest.dproj
+Microsoft (R) Versão do Mecanismo de Compilação 4.8.3752.0
+[Microsoft .NET Framework, Versão 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+MSBUILD : error MSB1009: Arquivo de projeto não existe.
+Opção: CalcTest.dproj
+
+C:\Projetos\Delphi\xxxx>msbuild CalcTest.dproj
+Microsoft (R) Versão do Mecanismo de Compilação 4.8.3752.0
+[Microsoft .NET Framework, Versão 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+MSBUILD : error MSB1009: Arquivo de projeto não existe.
+Opção: CalcTest.dproj
+
+C:\Projetos\Delphi\xxxx>msbuild \CalcTest\CalcTest.dproj
+Microsoft (R) Versão do Mecanismo de Compilação 4.8.3752.0
+[Microsoft .NET Framework, Versão 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+MSBUILD : error MSB1009: Arquivo de projeto não existe.
+Opção: \CalcTest\CalcTest.dproj
+
+C:\Projetos\Delphi\xxxx>cd calctest
+
+C:\Projetos\Delphi\xxxx\CalcTest>call "C:\Program Files (x86)\Embarcadero\Studio\20.0\bin\rsvars.bat"
+C:\Projetos\Delphi\xxxx\CalcTest>msbuild CalcTest.dproj
+Microsoft (R) Versão do Mecanismo de Compilação 4.8.3752.0
+[Microsoft .NET Framework, Versão 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+Compilação de 11/10/2020 12:44:40 iniciada.
+Project "C:\Projetos\Delphi\xxxx\CalcTest\CalcTest.dproj" on node 1 (default targets).
+_PasCoreCompile:
+  C:\Program Files (x86)\Embarcadero\Studio\20.0\bin\dcc32.exe -$O- -$W+ --no-config -M -Q -TX.exe -AGenerics.Collectio
+  ns=System.Generics.Collections;Generics.Defaults=System.Generics.Defaults;WinTypes=Winapi.Windows;WinProcs=Winapi.Win
+  dows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE -DDEBUG -E.\Win32\Debug -I"c:\program files (x86)\embarcadero\studio\20.0\
+  lib\Win32\debug\EN";"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\debug";"c:\program files (x86)\embarcad
+  ero\studio\20.0\lib\Win32\release\EN";..\CalcProject;"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\releas
+  e";C:\Users\gisel\Documents\Embarcadero\Studio\20.0\Imports;"C:\Program Files (x86)\Embarcadero\Studio\20.0\Imports";
+  C:\Users\Public\Documents\Embarcadero\Studio\20.0\Dcp;"C:\Program Files (x86)\Embarcadero\Studio\20.0\include" -LEC:\
+  Users\Public\Documents\Embarcadero\Studio\20.0\Bpl -LNC:\Users\Public\Documents\Embarcadero\Studio\20.0\Dcp -NU.\Win3
+  2\Debug -NSWinapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;System;Xml;Data;Datasnap;Web;Soap; -O
+  ..\CalcProject;"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release";C:\Users\gisel\Documents\Embarcader
+  o\Studio\20.0\Imports;"C:\Program Files (x86)\Embarcadero\Studio\20.0\Imports";C:\Users\Public\Documents\Embarcadero\
+  Studio\20.0\Dcp;"C:\Program Files (x86)\Embarcadero\Studio\20.0\include" -R"c:\program files (x86)\embarcadero\studio
+  \20.0\lib\Win32\release\EN";..\CalcProject;"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release";C:\User
+  s\gisel\Documents\Embarcadero\Studio\20.0\Imports;"C:\Program Files (x86)\Embarcadero\Studio\20.0\Imports";C:\Users\P
+  ublic\Documents\Embarcadero\Studio\20.0\Dcp;"C:\Program Files (x86)\Embarcadero\Studio\20.0\include" -U"c:\program fi
+  les (x86)\embarcadero\studio\20.0\lib\Win32\debug\EN";"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\debug
+  ";"c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\EN";..\CalcProject;"c:\program files (x86)\embarc
+  adero\studio\20.0\lib\Win32\release";C:\Users\gisel\Documents\Embarcadero\Studio\20.0\Imports;"C:\Program Files (x86)
+  \Embarcadero\Studio\20.0\Imports";C:\Users\Public\Documents\Embarcadero\Studio\20.0\Dcp;"C:\Program Files (x86)\Embar
+  cadero\Studio\20.0\include" -V -VN -NBC:\Users\Public\Documents\Embarcadero\Studio\20.0\Dcp -NHC:\Users\Public\Docume
+  nts\Embarcadero\Studio\20.0\hpp\Win32 -NO.\Win32\Debug  CalcTest.dpr
+  Embarcadero Delphi for Win32 compiler version 33.0
+  Copyright (c) 1983,2018 Embarcadero Technologies, Inc.
+C:\Program Files (x86)\Embarcadero\Studio\20.0\Bin\CodeGear.Delphi.Targets(402,5): error F2039: Could not create output
+ file '.\Win32\Debug\CalcTest.exe' [C:\Projetos\Delphi\xxxx\CalcTest\CalcTest.dproj]
+Done Building Project "C:\Projetos\Delphi\xxxx\CalcTest\CalcTest.dproj" (default targets) -- FAILED.
+
+
+FALHA da compilação.
+
+"C:\Projetos\Delphi\xxxx\CalcTest\CalcTest.dproj" (destino padrão) (1) ->
+(_PasCoreCompile destino) ->
+  C:\Program Files (x86)\Embarcadero\Studio\20.0\Bin\CodeGear.Delphi.Targets(402,5): error F2039: Could not create outp
+ut file '.\Win32\Debug\CalcTest.exe' [C:\Projetos\Delphi\xxxx\CalcTest\CalcTest.dproj]
+
+    0 Aviso(s)
+    1 Erro(s)
+
+Tempo Decorrido 00:00:00.84
+
+C:\Projetos\Delphi\xxxx\CalcTest>

@@ -2,6 +2,7 @@ GitHub
 - http://gabsferreira.com/criando-e-enviando-arquivos-para-seu-repositorio-no-github/
 - https://gist.github.com/leocomelli/2545add34e4fec21ec16
 - https://git-scm.com/book/pt-pt/v2/Come%C3%A7ando-Resumo
+- https://plugins.jenkins.io/github/
 
 
 

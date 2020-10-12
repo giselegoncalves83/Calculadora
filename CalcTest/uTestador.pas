@@ -35,7 +35,7 @@ end;
 
 procedure TCalculadora.mult(v1, v2: double);
 begin
-  Result := Calc.mult(10,2);
+  Result := Calc.mult(10,3);
   Assert.IsTrue( Result = 20, 'Valor resultante de divisão não corresponde ao valor 20' );
 end;
 
