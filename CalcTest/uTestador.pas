@@ -29,14 +29,14 @@ var
 
 procedure TCalculadora.divisao(v1, v2: double);
 begin
-  Result := Calc.divisao(10,0);
+  Result := Calc.divisao(10,2);
   Assert.IsTrue( Result = 5, 'Valor resultante de divisão não corresponde ao valor 5' );
 end;
 
 procedure TCalculadora.mult(v1, v2: double);
 begin
-  Result := Calc.mult(10,3);
-  Assert.IsTrue( Result = 20, 'Valor resultante de divisão não corresponde ao valor 20' );
+  Result := Calc.mult(10,2);
+  Assert.IsTrue( Result = 20, 'Valor resultante de multiplicação não corresponde ao valor 20' );
 end;
 
 procedure TCalculadora.Setup;

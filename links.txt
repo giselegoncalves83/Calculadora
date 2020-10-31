@@ -30,6 +30,15 @@ https://www.google.com/search?rlz=1C1CHZN_pt-BRBR911BR911&sxsrf=ALeKk03HvO-TfqwY
 
 
 
+"C:\Program Files\Jenkins\scripts\build.bat" "%WORKSPACE%" CalcTest.dproj
+
+
+call "C:\Program Files (x86)\Embarcadero\Studio\20.0\bin\rsvars.bat"
+cd %1
+msbuild %2
+"%WORKSPACE%"
+CalcTest.dproj
+start ".\Win32\Debug\CalcTest.exe"
 
 
 
