@@ -43,6 +43,9 @@ start ".\Win32\Debug\CalcTest.exe"
 
 https://resources.github.com/whitepapers/practical-guide-to-CI-with-Jenkins-and-GitHub/
 
+Deletar um repositório no Github
+https://docs.github.com/pt/free-pro-team@latest/github/administering-a-repository/deleting-a-repository
+
 
 
 
