@@ -41,5 +41,8 @@ CalcTest.dproj
 start ".\Win32\Debug\CalcTest.exe"
 
 
+https://resources.github.com/whitepapers/practical-guide-to-CI-with-Jenkins-and-GitHub/
+
+
 
 
